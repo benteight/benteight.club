@@ -36,12 +36,31 @@ googleAnalytics = ""
     alt = "Bent Eight"
     width = "700"
 
-  # # Header section
-  # [params.header]
-  #   enable = true
-  #   title = "Bent Eight Car Club"
+  # Header section
+  [params.header]
+    enable = true
+    title = "Hot Rod Car Club"
 
   # Quote section
-  # [params.quote]
-  #   enable = true
-  #   text = "Believe in yourself! Have faith in your abilities! Without a humble but reasonable confidence in your own powers you cannot be successful or happy."
+  [params.quote]
+    enable = true
+    text = "A hot rod car club for V8 enthusiasts in the Greater Los Angeles Area, representing the early '60s hot rod lifestyle.  We meet at least once a month, and gather at car shows in the area.  We have club stickers, come say hi!"
+
+  # As a club we meet at least once a month, but also enjoy gathering for various car shows, going on cruises as a club, and/or working on and helping with club member vehicles.  On a nice summer evening, there is a good chance you may see us cruising down X or Y.
+
+  # Social icons section
+  # Add a modifier class to increase size
+  # fa-lg, fa-2x, fa-3x, fa-4x, fa-5x
+  # e.g., icon = "fa-instagram fa-lg"
+  [params.social_icons]
+    enable = true
+
+  [[params.social]]
+    title = "Twitter"
+    icon = "fa-twitter"
+    link = "https://twitter.com/bent8carclub"
+
+  # [[params.social]]
+  #   title = "Instagram"
+  #   icon = "fa-instagram"
+  #   link = "https://twitter.com/bent8carclub"
