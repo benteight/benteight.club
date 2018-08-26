@@ -1,0 +1,47 @@
+# Site settings
+baseurl = "https://benteight.club/"
+languageCode = "en-us"
+title = "Bent Eight Car Club"
+theme = "smpl-theme"
+disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
+publishDir = "../docs"
+
+# Enter your tracking code to enable Google analytics
+googleAnalytics = ""
+
+[params]
+  # You can use Markdown for urls [text](//domain.tld/source)
+  #
+  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+  # for more icons.
+
+  # To provide more meta data for search engines feel free to add a few information.
+  # This lines will be inserted as meta tags.
+  name = "Bent Eight"
+  description = "Car Club"
+
+  # Background
+  [params.background]
+    image = "assets/img/bg.jpg"
+
+    # Enable and set background fade speed
+    [params.background.fade]
+      enable = true
+      speed = 500
+
+  # Logo section
+  [params.logo]
+    enable = true
+    image = "assets/img/logo.png"
+    alt = "Bent Eight"
+    width = "700"
+
+  # # Header section
+  # [params.header]
+  #   enable = true
+  #   title = "Bent Eight Car Club"
+
+  # Quote section
+  # [params.quote]
+  #   enable = true
+  #   text = "Believe in yourself! Have faith in your abilities! Without a humble but reasonable confidence in your own powers you cannot be successful or happy."

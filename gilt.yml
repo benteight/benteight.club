@@ -1,0 +1,4 @@
+---
+- git: https://github.com/christianmendoza/hugo-smpl-theme
+  version: master
+  dst: benteight.club/themes/smpl-theme/
